@@ -31,6 +31,7 @@
  /* HEADER LAYOUT */
 .header {
     display: flex;
+									   
     align-items: center;
     justify-content: space-between;
     gap: 20px;
@@ -38,6 +39,8 @@
 
 .header-left {
     flex: 1;
+					   
+				  
 }
 
 .header-center {
@@ -109,6 +112,11 @@
         color: #777;
     }
 
+    .responsibilities {
+        display: none;
+        margin-top: 10px;
+        color: #555;
+    }
 
     .company:hover .responsibilities {
         display: block;
@@ -159,6 +167,18 @@
     font-style: italic;
 }
 
+/* Hide bullets initially */
+.project-details {
+    margin-top: 12px;
+    display: none;
+    color: #444;
+}
+
+/* Show bullets on hover */
+.project-card:hover .project-details {
+    display: block;
+    animation: fadeIn 0.4s ease-in-out;
+}
 
 .project-details ul {
     padding-left: 18px;
@@ -230,6 +250,7 @@
         📞 9951479193<br>
         ✉️ sushanth3048@gmail.com<br>
         🔗 <a href="https://www.linkedin.com/in/sushanth-kng-844b73161/" target="_blank">LinkedIn</a>
+			  
     </div>
 </div>
 
@@ -533,8 +554,6 @@
 
 </body>
 </html>
-
-
 
 
 
